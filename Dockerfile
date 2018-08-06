@@ -32,4 +32,4 @@ COPY starter-script.sh /
 RUN chmod +x /starter-script.sh
 
 # Run crond in foreground mode with the log level set to 10:
-ENTRYPOINT ["./starter-script.sh"]
+ENTRYPOINT [ "./starter-script.sh" ]
