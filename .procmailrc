@@ -1,0 +1,4 @@
+LOGFILE=/root/.procmail.log
+VERBOSE=on
+:0
+! EF_FORWARD_EMAIL
